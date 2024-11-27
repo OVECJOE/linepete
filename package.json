@@ -1,0 +1,26 @@
+{
+  "name": "linepete",
+  "version": "1.0.0",
+  "description": "> A competition management API, built by developers for developers.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "@sinclair/typebox": "^0.34.9",
+    "fastify": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2"
+  }
+}
